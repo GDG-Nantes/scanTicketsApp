@@ -1,0 +1,8 @@
+{
+	"name": "DevFest-Scan-App",
+	"private": true,
+	"dependencies": {
+		"polymer": "Polymer/polymer#2.0.0",
+		"granite-qrcode-scanner": "LostInBrittany/granite-qrcode-scanner#1.5.1"
+	}
+}
