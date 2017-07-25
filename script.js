@@ -3,7 +3,9 @@
 	window.addEventListener('load', ()=>{
 
 		const logElt = document.getElementById('response_log');
-		document.querySelector('granite-qrcode-scanner')
+		const qrCodeElt = document.querySelector('granite-qrcode-scanner');
+
+		qrCodeElt
 		.addEventListener('qrcode-decoded', (evt)=>{
 			logElt.innerHTML =  `Scan du billet fait avec succès, code trouvé : ${evt.detail}`;
 			console.log(evt);
