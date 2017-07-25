@@ -23,5 +23,12 @@
 				})
 			}
 		});
+
+		 if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('./service-worker.js', {scope : location.pathname}).then(function(reg) {
+				console.log('Service Worker Register for scope : %s',reg.scope);
+			});
+		}
+
 	});
 })()

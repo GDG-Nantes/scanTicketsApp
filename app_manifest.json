@@ -1,0 +1,28 @@
+{
+    "name": "DevFest Scanner",
+    "short_name": "DevFest Scanner",
+    "icons": [
+        {
+            "src": "./assets/images/qrscanner_xhdpi.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        }, {
+            "src": "./assets/images/qrscanner_xxhdpi.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        }, {
+            "src": "./assets/images/qrscanner_xxxhdpi.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }, {
+            "src": "./assets/images/web_hi_res_512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#9e9e9e",
+    "theme_color": "#9e9e9e"
+}
