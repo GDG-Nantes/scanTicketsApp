@@ -68,6 +68,28 @@
               </p>
             <granite-qrcode-scanner active="true" continuous>
             </granite-qrcode-scanner>
+
+            <h3>Paramétrage</h3>
+            <p>
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-url">
+                <input type="checkbox" id="checkbox-url" class="mdl-checkbox__input" >
+                <span class="mdl-checkbox__label">Editer l'Url</span>
+              </label>
+                <input class="mdl-textfield__input" type="text" id="input_url" placeholder="url à appeler" value="http://billet.gdgnantes.com/flashbillet.php">
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-imp">
+                <input type="checkbox" id="checkbox-imp" class="mdl-checkbox__input" checked>
+                <span class="mdl-checkbox__label">Editer le numéro d'imprimante</span>
+              </label>
+                <input class="mdl-textfield__input" type="text"  pattern="-?[0-9]*(\.[0-9]+)?"  id="input_imp" placeholder="numéro d'imprimante" value="1">
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-lane">
+                <input type="checkbox" id="checkbox-lane" class="mdl-checkbox__input" >
+                <span class="mdl-checkbox__label">Editer le nom du guichet</span>
+              </label>
+                <input class="mdl-textfield__input" type="text" id="input_lane" placeholder="nom du gichet" value="accueil">
+                <label>
+                  Url résultat : <span id="resultUrl"></span>
+                </label>
+            </p>
           </div>
         </div>
         <footer class="demo-footer mdl-mini-footer">
@@ -80,6 +102,6 @@
       </main>
     </div>
     <script defer src="./libs_offline/material.min.js"></script>
-    <script defer src="/script.js"></script>
+    <script defer src="./script.js"></script>
   </body>
 </html>
