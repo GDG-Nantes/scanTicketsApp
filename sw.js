@@ -944,7 +944,7 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "0d19f0c2816bf4c2b2dc75caa664fc55"
+    "revision": "2182a190b950f74a404357f14f94ab1e"
   },
   {
     "url": "libs_offline/CWB0XYA8bzo0kSThX0UTuA.woff2",
@@ -968,7 +968,7 @@ const fileManifest = [
   },
   {
     "url": "script.js",
-    "revision": "36c4c9bdccce7bb7c671fbc821e2bbd2"
+    "revision": "c9baff617c4792c0a4cdd591b10b0620"
   },
   {
     "url": "styles.css",

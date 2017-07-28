@@ -66,9 +66,20 @@
               <p id="response_log">
 
               </p>
+              <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-manual">
+                <input type="checkbox" id="checkbox-manual" class="mdl-checkbox__input" >
+                <span class="mdl-checkbox__label">Saisie manuelle</span>
+              </label>
             <granite-qrcode-scanner active="true" continuous>
             </granite-qrcode-scanner>
 
+            <div id="manualArea" style="display:none">
+              <h3> Saisie Manuelle</h3>
+              <input class="mdl-textfield__input" type="text" id="input_manual" placeholder="Id du billet" value="">
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="manualSend">
+                Envoyer le code
+              </button>
+            </div>
             <h3>Paramétrage</h3>
             <p>
               <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-url">
