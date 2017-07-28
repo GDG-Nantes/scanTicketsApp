@@ -52,7 +52,8 @@
 			console.log(evt);
 			if (evt.detail){
 				fetch(`${globalUrl}&id${evt.detail}`,{
-					method: 'GET'
+					method: 'GET',
+					mode: 'cors'
 				})
 				.then((result)=>{
 					logElt.innerHTML =  `Envoie du billet fait avec succès, code trouvé : ${evt.detail}`;
