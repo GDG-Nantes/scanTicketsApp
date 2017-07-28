@@ -876,11 +876,11 @@ const fileManifest = [
   },
   {
     "url": "bower_components/webcomponentsjs\\webcomponents-hi-sd-ce.js",
-    "revision": "8b6282bd0039177ae3b7f277a457d02b"
+    "revision": "7ee448144738cf3237c76ccbdd4c855f"
   },
   {
     "url": "bower_components/webcomponentsjs\\webcomponents-hi-sd-ce.js.map",
-    "revision": "49c04078c6910dba931fc8ceee3b6dde"
+    "revision": "50cfd0bbe93f05bfd4668e356c8db8dc"
   },
   {
     "url": "bower_components/webcomponentsjs\\webcomponents-hi.js",
@@ -892,11 +892,11 @@ const fileManifest = [
   },
   {
     "url": "bower_components/webcomponentsjs\\webcomponents-lite.js",
-    "revision": "3caef50119dbd947863a0dc17f0a8a6a"
+    "revision": "f0f98ccb88444f6c7c921567fdd9fcf0"
   },
   {
     "url": "bower_components/webcomponentsjs\\webcomponents-lite.js.map",
-    "revision": "b688b39bd248c3505c098c1476d7888b"
+    "revision": "af5911881ab0af3faf6d2cd20c58af36"
   },
   {
     "url": "bower_components/webcomponentsjs\\webcomponents-loader.js",
@@ -904,11 +904,15 @@ const fileManifest = [
   },
   {
     "url": "bower_components/webcomponentsjs\\webcomponents-sd-ce.js",
-    "revision": "d33b0595baff3609eecf67debbc24367"
+    "revision": "d5fa87968154a88ff17059ba98b4b4b2"
   },
   {
     "url": "bower_components/webcomponentsjs\\webcomponents-sd-ce.js.map",
-    "revision": "b1a9204f8bac45be683cdce4ea6e1b11"
+    "revision": "22ad7d2617b6e645ee39fc7ef44b5eef"
+  },
+  {
+    "url": "bower_components/webcomponentsjs\\yarn.lock",
+    "revision": "5d72d2b3964150095e74a83a0a4c1ebc"
   },
   {
     "url": "bower.json",
@@ -940,7 +944,7 @@ const fileManifest = [
   },
   {
     "url": "index.html",
-    "revision": "73d777f6fe73cecf030cd3112e5e1b00"
+    "revision": "0d19f0c2816bf4c2b2dc75caa664fc55"
   },
   {
     "url": "libs_offline/CWB0XYA8bzo0kSThX0UTuA.woff2",
@@ -964,11 +968,7 @@ const fileManifest = [
   },
   {
     "url": "script.js",
-    "revision": "c2e6b63adc856399a2e29b55826a6b54"
-  },
-  {
-    "url": "service-worker_manual.js",
-    "revision": "5802e8474a69762f5ae5312063e84416"
+    "revision": "36c4c9bdccce7bb7c671fbc821e2bbd2"
   },
   {
     "url": "styles.css",

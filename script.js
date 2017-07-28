@@ -49,20 +49,8 @@
 		qrCodeElt
 		.addEventListener('qrcode-decoded', (evt)=>{
 			logElt.innerHTML =  `Scan du billet fait avec succès, code trouvé : ${evt.detail}`;
-			console.log(evt);
 			if (evt.detail){
-				fetch(`${globalUrl}&id${evt.detail}`,{
-					method: 'GET',
-					mode: 'cors'
-				})
-				.then((result)=>{
-					logElt.innerHTML =  `Envoie du billet fait avec succès, code trouvé : ${evt.detail}`;
-					console.log('scan submit sucess');
-				})
-				.catch((error) =>{
-					logElt.innerHTML =  `Erreur pendant la saisie du billet`;
-					console.error('scan submit error', error);
-				})
+				window.location.href = `${globalUrl}&id${evt.detail}`;
 			}
 		});
 
